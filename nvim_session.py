@@ -88,5 +88,9 @@ def main(argv: List[str]) -> None:
         Session.attach(SESSIONS_DIR / args.attach, rest)
 
 
-if __name__ == '__main__':
+def entry_point() -> None:
     main(sys.argv)
+
+
+if __name__ == '__main__':
+    entry_point()

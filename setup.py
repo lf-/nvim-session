@@ -13,7 +13,7 @@ with open('version.txt', 'rb') as h:
 
 
 setuptools.setup(
-    name = 'nvim-session',
+    name = 'nvim_session',
     version = version,
     py_modules = ['nvim_session'],
     python_requires = '>=3.6',
